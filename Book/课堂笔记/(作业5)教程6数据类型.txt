@@ -1,0 +1,69 @@
+                       
+                       < 整数类型<int
+                       | 浮点数类型<float
+        <    1.基本类型{           |double
+        |              | 字符类型<char
+        |              | 布尔类型<_Bool   (布尔类型只能表示真(true)或假(flase))
+        |              < 枚举类型< 略
+        |
+数据类型{    2.指针类型< 略
+        |
+        |
+        |   3.构造类型
+        |   4.空类型
+        <
+
+------------------------------------------------------------
+
+基本类型< 1.整数类型 2浮点数类型 3.字符类型 4.布尔类型 5.枚举类型
+
+1.：
+short int
+int
+long int
+long long int
+(
+    short int ≤ int ≤ long int ≤ long long int
+)
+
+--------------------------------------------------------
+
+
+
+
+2.:
+float
+double
+long double
+
+3.4.:略
+
+5.:enum
+
+------------------------------------
+<sizeof运算符>
+
+(1) sizeof运算符用于获得数据类型或表达式的长度
+
+-sizeof(object),        //sizeof(对象);
+=====
+-sizeof(type_name);    //sizeof(类型);
+=====
+-sizeof object;       //sizeof 对象;
+
+----------------------------------------------
+<signed和unsigned>
+(1)signed表示该变量是带符号位的（可存放负数）
+(2)unsigned表示该变量是不带符号位的（不可存放负数，只能存放正数和零）(可以存放更大的值)
+=====
+[signed] short [int]
+unsigned short [int]
+=====
+[signed] int
+unsigned int
+=====
+[signed] long [int]
+unsigned long [int]
+=====
+[signed] long long [int]
+unsigned long long [int]
