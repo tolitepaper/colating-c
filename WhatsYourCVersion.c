@@ -15,4 +15,4 @@ int ver = 0;
 #endif
 }
 // very good
-// very good good good
+// very good good
